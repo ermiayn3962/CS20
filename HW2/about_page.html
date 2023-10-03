@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Food Delivery">
+        <meta name="keywords" content="Food, Hungry, delivery">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+        <title>DELIVR - About</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&family=Mooli&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Martian+Mono:wght@500&family=Mooli&display=swap" rel="stylesheet">
+
+        <style>
+
+            section
+            {
+                background-color: orange;
+                overflow: auto;
+                
+            }
+
+            p.content
+            {
+                font-family: "Comfortaa", sans-serif;
+                font-size: 20px;
+            }
+
+            div.image
+            {
+                width: 100%;
+                max-width: 400px;
+                height: 300px;
+            }
+
+            
+
+            h1.content
+            {
+                text-align: center;
+                padding-top: 110px;
+                font-size: x-large;
+                white-space: normal;
+                font-family: "Martian Mono", sans-serif;
+
+            }
+
+            input
+            {
+                padding: 10px;
+                box-shadow: 0, 0, 15px, 4px;
+                border-color: rgba(0, 0, 0, 0.06);
+                border-radius: 20px;
+                font-family: monospace;
+
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div style="position: sticky; top: 1px; background-color: white;">
+            <!--Logo and signup/login bar-->
+            <div class="header">
+                <a href="home_page.html" class="logo">
+                    <img src="logo.jpg" alt="logo" style="height: 100px; width: 246px;">
+                </a>
+                <div class="header-right">
+                    <a href="#">Login</a>
+                    <a href="#">Signup</a>
+                </div>
+    
+                <div id="header_slogan">
+                    Getting you the best food quickly
+                </div>
+            </div>
+                    
+            <!--Nav bar-->
+            <div id="nav" style="font-size: medium;">
+                <table style="width: 100%">
+                    <tr>
+                        <th><a href="about_page.html" class="btn"> About </a> </th>
+                        <th><a href="#" class="btn"> Explore Plans </a> </th>
+                        <th><a href="#" class="btn"> Locations </a> </th>
+                        <th><a href="contact_page.html" class="btn"> Contact Us </a> </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- We add the checkbox -->
+        <input type="checkbox" id="hamburger-input" class="burger-shower" />
+        <label id="hamburger-menu" for="hamburger-input">
+        <nav id="sidebar-menu">
+            <h3>Menu</h3>
+            <ul>
+            <li><a href="home_page.html">Home</a></li>
+            <li><a href="#">Login</a> / <a href="#">Signup</a></li>
+            <li><a href="about_page.html"> About </a> </li>
+            <li><a href="#"> Explore Plans </a> </li>
+            <li><a href="#"> Locations </a> </li>
+            <li><a href="contact_page.html"> Contact Us </a> </li>
+            </ul>
+        </nav>
+        </label>
+
+        <!-- 
+        Adding an overlay to show a dark 
+        background when the menu appears
+        -->
+        <div class="overlay"></div>
+            
+        <div style="margin-top: 10px; margin-left: auto; margin-right: auto;
+                    border: 2px solid rgba(0, 0, 0, 0.599); border-radius: 20px; width: 55%;">
+            <h1 style="text-align: center; font-size: 50px; margin: 0; line-height: 100px; "> About Us </h1>
+        </div>
+        <!--About Info Graphic-->
+        <section style="margin-top: 8px;">
+            <div class="content" style="float: left;">
+                <h2 style="margin-bottom: 10px; font-family: Comfortaa; color: rgba(0, 0, 0, 0.633); font-weight: bold; font-size: 40px; border-bottom: 5px dotted rgba(0, 0, 0, 0.474); width: fit-content;"> Our Story </h2>
+                <p class="content" style="margin-top: 2px;">
+                    Born out of a shared love for good food and a desire to redefine the food delivery experience, 
+                    DELIVR was founded by a group of passionate food enthusiasts who believe that every meal should be an occasion, a celebration of flavors, and a moment to savor.
+
+                    Our journey began with a simple question: "Why should incredible cuisine be limited to restaurants?" 
+                    With this question in mind, DELIVR set out to revolutionize the way you enjoy your favorite dishes. 
+                    We are not just a delivery service; we are your partners in culinary exploration, bringing the best of local and international cuisine to your doorstep.
+                </p>
+            </div>
+
+            <div class="content" style="float: right; margin-top: 100px; max-width: 500px; margin-left: 200px;">
+                <h2 style="margin-bottom: 10px; font-family: Comfortaa; color: rgba(0, 0, 0, 0.633); font-weight: bold; font-size: 40px; border-bottom: 5px dotted rgba(0, 0, 0, 0.474); width: fit-content;
+                    float: left;"> Our Mission </h2>
+                <p class="content" style="margin-top: 2px; float: right;">
+                    At DELIVR, we are driven by a single mission: to make exceptional food accessible to everyone, anywhere, anytime. 
+                    We strive to connect you with the finest restaurants, cafes, and culinary artisans in your area, ensuring that you can enjoy gourmet meals without leaving your home or office.
+                </p>
+            </div>
+
+        </section>
+
+        <div class="content" style="float: left; color: black; margin-bottom: 100px; height: fit-content;">
+            <h2 style="margin-bottom: 10px; font-family: Comfortaa; color: rgba(0, 0, 0, 0.633); font-weight: bold; font-size: 40px; border-bottom: 5px dotted rgba(0, 0, 0, 0.474); width: fit-content;"> What Sets Us Apart</h2>
+            <ol>
+                <li>
+                    <h2>Curated Selection:</h2>
+                    <p class="content" style="margin-top: 2px;">
+                        We handpick our partner restaurants, ensuring they meet our high standards for quality, taste, and hygiene. Each meal you order through DELIVR is a testament to our commitment to excellence.
+                    </p>
+                    
+                </li>
+                
+                <li>
+                    <h2>Diverse Menu:</h2>
+                    <p class="content" style="margin-top: 2px;">
+                        Our extensive menu features a wide range of cuisines, from local favorites to global delights. Whether you're in the mood for a hearty burger, a savory bowl of ramen, or a vegan feast, we've got you covered.
+                    </p>
+                    
+                </li>
+
+                <li>
+                    <h2>Efficiency and Speed:</h2>
+                    <p class="content" style="margin-top: 2px;">
+                        We understand the importance of timely deliveries. Our dedicated team works tirelessly to get your food to you piping hot and as quickly as possible, so you can enjoy it at its best.
+                    </p>
+                        
+                </li>
+        
+                <li>
+                    <h2>Customer-Centric Approach: </h2>
+                    <p class="content" style="margin-top: 2px;">
+                        Your satisfaction is our top priority. We value your feedback and are constantly striving to improve our service to meet your expectations.  
+                    </p>
+                        
+                </li>                
+            </ol>
+            
+        </div>
+
+    </body>
+
+</html>

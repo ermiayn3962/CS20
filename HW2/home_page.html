@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Food Delivery">
+        <meta name="keywords" content="Food, Hungry, delivery">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <title>DELIVR - Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&family=Mooli&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+
+            section
+            {
+                background-color: orange;
+                white-space: nowrap;
+                
+            }
+
+            div.image
+            {
+                width: 100%;
+                max-width: 400px;
+                height: 300px;
+            }
+
+
+            h1.content
+            {
+                text-align: center;
+                padding-top: 110px;
+                font-size: x-large;
+                white-space: normal;
+                font-family: "Martian Mono", sans-serif;
+
+            }
+
+            input
+            {
+                padding: 10px;
+                box-shadow: 0, 0, 15px, 4px;
+                border-color: rgba(0, 0, 0, 0.06);
+                border-radius: 20px;
+                font-family: monospace;
+
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div style="position: sticky; top: 1px; background-color: white;">
+            <!--Logo and signup/login bar-->
+            <div class="header">
+                <a href="home_page.html" class="logo">
+                    <img src="logo.jpg" alt="logo" style="height: 100px; width: 246px;">
+                </a>
+                <div class="header-right">
+                    <a href="#">Login</a>
+                    <a href="#">Signup</a>
+                </div>
+                
+                <div id="header_slogan">
+                    Getting you the best food quickly
+                </div>
+            </div>
+            
+            <!--Nav bar-->
+            <div id="nav" style="font-size: medium;">
+                <table style="width: 100%">
+                    <tr>
+                        <th><a href="about_page.html" class="btn"> About </a> </th>
+                        <th><a href="#" class="btn"> Explore Plans </a> </th>
+                        <th><a href="#" class="btn"> Locations </a> </th>
+                        <th><a href="contact_page.html" class="btn"> Contact Us </a> </th>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        
+        <!--Who We Are-->
+        
+        
+        <!-- We add the checkbox -->
+        <input type="checkbox" id="hamburger-input" class="burger-shower" />
+        <label id="hamburger-menu" for="hamburger-input">
+        <nav id="sidebar-menu">
+            <h3>Menu</h3>
+            <ul>
+            <li><a href="home_page.html">Home</a></li>
+            <li><a href="#">Login</a> / <a href="#">Signup</a></li>
+            <li><a href="about_page.html"> About </a> </li>
+            <li><a href="#"> Explore Plans </a> </li>
+            <li><a href="#"> Locations </a> </li>
+            <li><a href="contact_page.html"> Contact Us </a> </li>
+            </ul>
+        </nav>
+        </label>
+
+        <!-- 
+        Adding an overlay to show a dark 
+        background when the menu appears
+        -->
+        <div class="overlay"></div>
+        
+
+        <div class="content" style="color: black; float: left; margin-left: auto; margin-right: auto; height: fit-content;
+        max-width: fit-content;">
+            <div>
+                <h2 style="margin-bottom: 10px; font-family: Comfortaa; color: rgba(0, 0, 0, 0.633); font-weight: bold; font-size: 40px; border-bottom: 5px dotted rgba(0, 0, 0, 0.474); width: fit-content;
+                        float: left;"> Crafting Culinary Experiences, One Delivery at a Time </h2>
+            </div>
+            <div style="clear: both; width: 100%; max-width: fit-content; margin: 0;">
+                <p class="content">
+                    Welcome to DELIVR, where gastronomy meets convenience, and your cravings are just a click away from satisfaction. 
+                    We are not just a food delivery service; we are the architects of delightful dining experiences in the comfort of your own space.
+                </p>
+            </div>
+        </div>
+
+
+        <!--Delivery Address Search-->
+        <div style="clear: both; text-align: center; width: 90%; margin-top: 20px; margin-bottom: 20px; margin-left: auto; margin-right: auto; padding: 10px;
+            border-radius: 20px; border: 1px solid black; background-color: #f1f1f1; ">
+            <form action="#" style=" margin-left: auto; margin-right: auto;">
+                <label style="font-size: large;" for="delivery">Enter your delivery address:</label>
+                <input type="text" style="height: auto; width: 60%;" name="delivery" value="">
+                <input style="background-color: white;" type="submit" value="Find Food">
+            </form>
+        </div>
+
+        <!--Restaurant Info Graphic-->
+        <section style="margin-top: 8px;">
+
+            <div style="width: 100%; height: fit-content; display: flex; flex-direction: row; flex-flow: row wrap;
+                align-items: center;">
+                    <div style="width: 100%; padding-top: auto; padding-bottom: auto; display: flex; align-items: center; justify-content: left;
+                    margin-right: 30px;">
+
+                        <div class="image" style="background-image: url(restaurant.jpg); background-size: cover; 
+                            margin-left: 30px; margin-top: 30px; float: left;">
+                        </div>
+                        
+                        <div class="content" style="float: left; padding: 0;">
+                            <h1 class="content" style="padding: 0;">
+                                Restaurant quality food at your finger tips in minutes
+                            </h1>
+                    </div>
+
+                </div>
+
+
+                <div style="width: 100%; padding-top: auto; padding-bottom: auto; display: flex; align-items: center; justify-content: right;
+                margin-right: 30px;">
+                    
+                    <div class="content" style="float: right;
+                        padding: 0;">
+                        <h1 class="content" style="padding: 0;">
+                            Quick, affordable, and so many options to choose from
+                        </h1>
+                    </div>
+
+                    <div class="image" style="background-image: url(plates.jpg); background-size: cover;">
+                    </div>
+                    
+
+                </div>
+                
+                
+            </div>
+
+        </section>
+
+
+        <div style="clear:both; margin-top: 10px; margin-bottom: 10px; margin-left: auto; margin-right: auto; max-width: 500px; color: black; 
+                max-width: fit-content; box-sizing: border-box;">
+            <div>
+                <h2 style="margin-bottom: 10px; font-family: Comfortaa; color: rgba(0, 0, 0, 0.633); font-weight: bold; font-size: 40px; border-bottom: 5px dotted rgba(0, 0, 0, 0.474); max-width: fit-content;
+                float: left;"> Join Us in the DELIVR Experience </h2>
+
+            </div>
+
+            <div style="clear: both; height: 100px;">
+                <p class="content" style="margin-top: 2px; margin-left: auto; margin-right: auto; height: fit-content;">
+                    Whether you're a busy professional, a food connoisseur, or a family looking for a hassle-free dining option, DELIVR is here to serve you. Discover the joy of indulging in exquisite meals from the comfort of your own space. Let us bring the culinary world to your doorstep, one delivery at a time.
+
+                    Thank you for choosing DELIVR. We look forward to serving you and making every meal a memorable experience.
+                </p>
+
+            </div>
+        </div>
+
+
+    </body>
+
+</html>

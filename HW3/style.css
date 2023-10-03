@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+store
+{
+    width: 100%;
+    background-color: bisque;
+}
+
+
+products 
+{
+    display: block;
+    background-color: rgba(180, 214, 244, 0.523);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+name
+{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+description
+{
+    display: block;
+    text-align: center;
+}
+
+size
+{
+    display: block;
+}
+
+price
+{
+    display: inline-block;
+}
+
+categories
+{
+    float: right;
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<store>    
+    <products>
+        <name> Flower Pot</name>
+        <description> Handmade Red Clay Pot</description>
+        <size> Size: Medium </size>
+        <price> Price: $15 </price>
+        <categories>
+            <category> Outdoor Goods/ </category>
+            <category> Gardening </category>
+        </categories>
+    </products>
+
+    <products>
+        <name> Rake </name>
+        <description> Metal Wireframe Rake </description>
+        <size> Size: 5ft Tall </size>
+        <price> Price: $25 </price>
+        <categories>
+            <category> Outdoor Goods/ </category>
+            <category> Gardening </category>
+        </categories>
+    </products>
+
+    <products>
+        <name> Sprinkler </name>
+        <description> Plastic Sprinkler Head </description>
+        <size> Size: Medium </size>
+        <price> Price: $12 </price>
+        <categories>
+            <category> Outdoor Goods/ </category>
+            <category> Plumbing </category>
+        </categories>
+    </products>
+
+    <products>
+        <name> Soil </name>
+        <description> Topsoil For Flower Garden </description>
+        <size> Size: 5lbs </size>
+        <price> Price: $25 </price>
+        <categories>
+            <category> Outdoor Goods/ </category>
+            <category> Gardening </category>
+        </categories>
+    </products>
+
+    <products>
+        <name> Grass Seeds </name>
+        <description> St. Augustine Grass </description>
+        <size> Size: 16oz </size>
+        <price> Price: $15 </price>
+        <categories>
+            <category> Outdoor Goods/ </category>
+            <category> Gardening </category>
+        </categories>
+    </products>
+
+    <products>
+        <name> Lawn Mower</name>
+        <description> Multi-setting Lawn Mower </description>
+        <size> Size: Large </size>
+        <price> Price: $120 </price>
+        <categories>
+            <category> Outdoor Goods/ </category>
+            <category> Tools </category>
+        </categories>
+    </products>
+
+    <products>
+        <name> Shovel </name>
+        <description> Rust Resistant Shovel</description>
+        <size> Size: Large </size>
+        <price> Price: $30 </price>
+        <categories>
+            <category> Outdoor Goods/ </category>
+            <category> Tools </category>
+        </categories>
+    </products>
+
+    <products>
+        <name> Pickaxe </name>
+        <description> Sturdy Pickaxe </description>
+        <size> Size: Medium </size>
+        <price> Price: $40 </price>
+        <categories>
+            <category> Outdoor Goods/ </category>
+            <category> Tools </category>
+        </categories>
+    </products>
+
+
+</store>
